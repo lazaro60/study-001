@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carrossel {
+    display: flex;
+    width: 900px;
+    height: 400px;
+    outline: 40px solid rgb(193, 109, 29);
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.carrossel ul {
+    display: flex;
+    width: 2700px;
+    height: 400px;
+    outline: 1px solid black;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.carrossel li {
+    position: relative;
+    animation: slides 10s infinite ease;
+}
+
+@keyframes slides {
+    0% {
+        left: 0px;
+    }
+    20% {
+        left: 0px;
+    }
+    30% {
+        left: -900px;
+    }
+    50% {
+        left: -900px;
+    }
+    60% {
+        left: -1800px;
+    }
+    80% {
+        left: -1800px;
+    }
+    100% {
+        left: 0px;
+    }
+}

@@ -1,0 +1,123 @@
+@media (max-width:570px) {
+    #titulo {
+        margin: 50px;
+        z-index: 0;
+    }
+    #titulo p {
+        text-align: center;
+        font-size: .37em;
+        margin-top: 40px;
+    }
+    #logo {
+        position: absolute;
+        padding: 20px;
+        left: 0;
+        right: 0;
+        display: block;
+        text-align: center;
+    }
+    .header {
+        flex-direction: column;
+        margin-top: 0px;
+        z-index: 1;
+    }
+    .nav-toggle:checked~nav {
+        transform: scale(1, 1);
+        transform-origin: top;
+        transition: transform 400ms ease-in-out;
+        z-index: 2;
+    }
+    .nav-toggle {
+        transform: scale(1, 0);
+    }
+    .nav-toggle-label {
+        position: absolute;
+        color: white;
+        top: 0;
+        left: 0;
+        margin-left: 1.3em;
+        height: 12%;
+        display: -webkit-inline-flex;
+        align-items: center;
+        cursor: pointer;
+        z-index: 3;
+    }
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        display: block;
+        background: white;
+        width: 2em;
+        height: 2px;
+        border-radius: 2px;
+        position: relative;
+    }
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        content: '';
+        position: absolute;
+    }
+    .nav-toggle-label span::before {
+        top: 7px;
+    }
+    .nav-toggle-label span::after {
+        bottom: 7px;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+        margin-top: 220px;
+        background-color: rgba(79, 32, 21, 1);
+        width: 100vw;
+        position: relative;
+        z-index: 3;
+    }
+    li {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding: 4px;
+        margin-top: 0px;
+        z-index: 1;
+        border-top: 1px solid rgba(250, 250, 250, .3);
+    }
+    .sct-01 {
+        display: grid;
+        grid-template-columns: auto;
+        width: 100vw;
+        height: 110vh;
+        background-color: rgba(246, 145, 145, 1);
+        font-family: 'Pinyon Script', cursive;
+        font-size: 3em;
+        line-height: 1.1em;
+        text-align: center;
+        color: rgb(56, 12, 12);
+        z-index: 1;
+    }
+    .sct-01 img {
+        display: grid;
+        grid-template-columns: auto;
+        width: 300px;
+        margin-top: -190px;
+    }
+    .sct-02 {
+        display: grid;
+        grid-template-columns: auto;
+        margin: auto;
+        padding: 20px;
+        margin-top: 0px;
+    }
+    .sct-02 div {
+        margin-top: 40px;
+    }
+    .slider {
+        display: none;
+    }
+    footer {
+        width: 360px;
+        margin-top: 40px;
+    }
+}

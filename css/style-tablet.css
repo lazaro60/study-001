@@ -1,0 +1,129 @@
+@media (min-width:571px) and (max-width:1000px) {
+    #titulo {
+        margin: 70px;
+        z-index: 0;
+    }
+    #titulo p {
+        text-align: center;
+        font-size: .4em;
+        margin-top: 30px;
+    }
+    #logo {
+        position: absolute;
+        padding: 20px;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: start;
+        text-align: left;
+    }
+    .header {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgba(79, 32, 21, .9);
+        height: 80px;
+        width: 100vw;
+    }
+    header {
+        width: 100vw;
+    }
+    /* Menu */
+    .nav-toggle:checked~nav {
+        display: none;
+    }
+    .nav-toggle {
+        display: flex;
+    }
+    .nav-toggle-label {
+        position: absolute;
+        color: white;
+        top: 0;
+        left: 0;
+        margin-left: 1.3em;
+        height: 12%;
+        display: none;
+        align-items: center;
+        cursor: pointer;
+    }
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        display: block;
+        background: white;
+        width: 2em;
+        height: 2px;
+        border-radius: 2px;
+        position: relative;
+    }
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        content: '';
+        position: absolute;
+    }
+    .nav-toggle-label span::before {
+        top: 7px;
+    }
+    .nav-toggle-label span::after {
+        bottom: 7px;
+    }
+    li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        list-style-type: none;
+        cursor: pointer;
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 20px 0px 20px;
+        text-decoration: none;
+    }
+    ul li a {
+        text-decoration: none;
+        color: antiquewhite;
+    }
+    ul li a:hover {
+        text-decoration: none;
+        color: rgb(239, 189, 124);
+    }
+    .sct-01 {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100vw;
+        height: 60vh;
+        background-color: rgba(246, 145, 145, 1);
+        font-family: 'Pinyon Script', cursive;
+        font-size: 3em;
+        line-height: 1.1em;
+        text-align: center;
+        color: rgb(56, 12, 12);
+        z-index: 1;
+    }
+    .sct-01 img {
+        display: grid;
+        grid-template-columns: auto;
+        width: 270px;
+        margin-top: -70px;
+    }
+    .sct-02 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: auto;
+        padding: 20px;
+        margin-top: 0px;
+    }
+    .sct-02 div {
+        margin-top: 40px;
+    }
+    .slider {
+        display: none;
+    }
+    footer {
+        width: 100vw;
+        margin-top: 40px;
+    }
+}
