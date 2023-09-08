@@ -29,24 +29,24 @@
 
 @keyframes slides {
     0% {
-        left: -30px;
+        left: -40px;
     }
     20% {
-        left: -30px;
+        left: -40px;
     }
     30% {
-        left: -900px;
+        left: -1000px;
     }
     50% {
-        left: -900px;
+        left: -1000px;
     }
     60% {
-        left: -1800px;
+        left: -1850px;
     }
     80% {
-        left: -1800px;
+        left: -1850px;
     }
     100% {
-        left: -30px;
+        left: -40px;
     }
 }
