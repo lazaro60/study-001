@@ -123,7 +123,7 @@
         grid-template-columns: auto auto;
         margin: auto;
         width: 100vw;
-        height: 40vh;
+        height: 80vh;
         background-color: rgba(246, 145, 145, .8);
         font-family: 'Pinyon Script', cursive;
         font-size: 5em;
@@ -194,11 +194,14 @@
         padding: 15px;
     }
     /* Rodape */
-    
+    .carrossel{
+        height:500px;
+    }
     footer {
         background-color: rgb(58, 34, 34);
         height: 100px;
         width: 100%;
+        margin-top: 100vh;
     }
     
     footer>p {
