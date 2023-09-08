@@ -6,7 +6,7 @@
 
 .carrossel {
     display: flex;
-    width: 900px;
+    width: 800px;
     height: 400px;
     outline: 40px solid rgb(193, 109, 29);
     margin: 40px auto;
@@ -29,10 +29,10 @@
 
 @keyframes slides {
     0% {
-        left: 0px;
+        left: -30px;
     }
     20% {
-        left: 0px;
+        left: -30px;
     }
     30% {
         left: -900px;
@@ -47,6 +47,6 @@
         left: -1800px;
     }
     100% {
-        left: 0px;
+        left: -30px;
     }
 }
