@@ -119,7 +119,9 @@
     /* Secao 01 */
     h2{
         font-family: 'Pinyon Script', cursive;
-
+        font-size: 3em;
+        color: rgb(58, 34, 34);
+        text-align: center;
     }
     .sct-01 {
         display: grid;
@@ -148,7 +150,7 @@
         text-align: left;
         line-height: 1.4em;
         color: rgb(110, 62, 62);
-        margin-top: 25px;
+        margin-top: 15px;
     }
     /* Secao 02 */
     
