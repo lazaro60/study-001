@@ -117,7 +117,10 @@
         margin: 120px -80px 0px 100px;
     }
     /* Secao 01 */
-    
+    h2{
+        font-family: 'Pinyon Script', cursive;
+
+    }
     .sct-01 {
         display: grid;
         grid-template-columns: auto auto;
@@ -201,7 +204,7 @@
         background-color: rgb(58, 34, 34);
         height: 100px;
         width: 100%;
-        margin-top: 100vh;
+        margin-top: 60vh;
     }
     
     footer{
@@ -210,8 +213,6 @@
     justify-content: center;
     align-items: center;       
     font-size: .7em;
-    height:100px;
-    width: 100%;
     }
     
        
