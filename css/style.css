@@ -111,6 +111,7 @@
     
     button {
         margin-top: -30px;
+        margin-bottom: 40px;
     }
     
     #titulo {
@@ -119,9 +120,12 @@
     /* Secao 01 */
     h2{
         font-family: 'Pinyon Script', cursive;
-        font-size: 3em;
+        font-size: 4em;
         color: rgb(58, 34, 34);
         text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
     }
     .sct-01 {
         display: grid;
@@ -185,12 +189,15 @@
     
     .sct-02 div p {
         margin: auto;
-        padding: 40px;
+        padding: 30px;
         text-align: center;
+    }
+    .sct-02 div p {
+        margin-bottom: 30px;
     }
     
     .sct-02 {
-        margin-top: 50px;
+        margin-top: 40px;
     }
     
     .sct-02 div img {
