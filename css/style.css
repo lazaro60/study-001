@@ -10,7 +10,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
         background-image: linear-gradient(to bottom, transparent 30%, #f4a583 80%), url("../img/back.jpg");
-        background-repeat: repeat;
+        background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
     }
@@ -87,7 +87,9 @@
         text-decoration: none;
         color: rgb(239, 189, 124);
     }
-    
+    label{
+        display:none;
+    }
     main {
         height: 100vh;
         max-width: 1000px;
@@ -132,7 +134,6 @@
         grid-template-columns: auto auto;
         margin: auto;
         width: 100vw;
-        height: 80vh;
         background-color: rgba(246, 145, 145, .8);
         font-family: 'Pinyon Script', cursive;
         font-size: 5em;
@@ -207,7 +208,6 @@
     }
     /* Rodape */
     .carrossel{
-        height:500px;
     }
     footer {
         background-color: rgb(58, 34, 34);
