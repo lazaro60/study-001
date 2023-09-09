@@ -206,11 +206,13 @@
     
     footer p {
     display:flex; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;       
     font-size: .7em;
     }
     
     footer {
-        width: 100px;
+        height:100px;
+        width: 100%;
     }
