@@ -204,15 +204,14 @@
         margin-top: 100vh;
     }
     
-    footer p {
+    footer{
     display:flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;       
     font-size: .7em;
+    height:100px;
+    width: 100%;
     }
     
-    footer {
-        height:100px;
-        width: 100%;
-    }
+       
