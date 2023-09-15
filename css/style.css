@@ -190,8 +190,16 @@
     }
     
     .artigo h2 {
+        display: block;
         text-align: center;
         margin-bottom: 40px;
+    }
+    
+    .artigo .paragrafo {
+        text-align: left;
+        margin-bottom: 40px;
+        column-count: 2;
+        column-gap: 20px;
     }
     
     .artigo p {
@@ -238,7 +246,7 @@
         font-size: 13px;
     }
     
-    #rodape>div {
+    #rodape div {
         display: flex;
         justify-content: space-around;
         align-items: center;
