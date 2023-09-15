@@ -7,12 +7,10 @@
     }
     
     body {
-        margin: 0;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
-        height: 100%;
         background-image: linear-gradient(to bottom, transparent 30%, #f4a583 80%), url("../img/back.jpg");
-        background-repeat: repeat;
+        background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
     }
@@ -24,7 +22,7 @@
         align-items: center;
         background-color: rgba(79, 32, 21, .9);
         height: 80px;
-        width: 100vw;
+        width: 100%;
     }
     
     #logo {
@@ -32,6 +30,10 @@
         left: 0;
         right: 0;
         text-align: left;
+    }
+    
+    input {
+        display: none;
     }
     
     header {
@@ -73,8 +75,12 @@
         color: rgb(239, 189, 124);
     }
     
+    label {
+        display: none;
+    }
+    
     main {
-        height: 100%;
+        height: 100vh;
         max-width: 1000px;
         margin: auto;
         padding-top: 0px;
@@ -96,6 +102,7 @@
     
     button {
         margin-top: -30px;
+        margin-bottom: 40px;
     }
     
     #titulo {
@@ -103,12 +110,20 @@
     }
     /* Secao 01 */
     
+    h2 {
+        font-family: 'Pinyon Script', cursive;
+        font-size: 4em;
+        color: rgb(58, 34, 34);
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
     .sct-01 {
         display: grid;
         grid-template-columns: auto auto;
         margin: auto;
         width: 100vw;
-        height: 80vh;
         background-color: rgba(246, 145, 145, .8);
         font-family: 'Pinyon Script', cursive;
         font-size: 5em;
@@ -130,7 +145,7 @@
         text-align: left;
         line-height: 1.4em;
         color: rgb(110, 62, 62);
-        margin-top: 25px;
+        margin-top: 15px;
     }
     /* Secao 02 */
     
@@ -165,12 +180,16 @@
     
     .sct-02 div p {
         margin: auto;
-        padding: 40px;
+        padding: 30px;
         text-align: center;
     }
     
+    .sct-02 div p {
+        margin-bottom: 30px;
+    }
+    
     .sct-02 {
-        margin-top: 50px;
+        margin-top: 40px;
     }
     
     .sct-02 div img {
@@ -235,25 +254,20 @@
     }
     /* Rodape */
     
-    #rodape {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+    footer {
         background-color: rgb(58, 34, 34);
         height: 100px;
         width: 100%;
-        margin-top: 60px;
-        font-size: 13px;
     }
     
-    #rodape div {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+    footer>p {
+        text-align: center;
+        vertical-align: middle;
+        padding: 30px;
+        font-size: .7em;
     }
     
-    #rodape div img {
-        height: 25px;
-        width: 25px;
-        margin: 0 10px;
+    footer {
+        width: 100vw;
+        margin-top: 40px;
     }
