@@ -178,61 +178,6 @@
         border: 1px dashed white;
         padding: 15px;
     }
-    
-    .artigo {
-        width: 1000px;
-        padding: 50px;
-        margin-top: 60px;
-        background-color: #f4a583;
-        color: #1b1a1a;
-        text-align: left;
-        border-radius: 15px;
-    }
-    
-    .artigo h2 {
-        display: block;
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    
-    .artigo .paragrafo {
-        text-align: left;
-        margin-bottom: 40px;
-        column-count: 2;
-        column-gap: 20px;
-    }
-    
-    .artigo p {
-        line-height: 30px;
-        margin-bottom: 40px;
-    }
-    
-    #form {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        width: 500px;
-        margin: 0 auto;
-        color: rgb(36, 28, 28);
-    }
-    
-    #form input {
-        height: 30px;
-        border-radius: 4px;
-        border: 0;
-    }
-    
-    textarea {
-        height: 100px;
-        border-radius: 4px;
-        border: 0;
-    }
-    
-    .form-01 h1 {
-        text-align: center;
-        margin: 60px 0;
-        color: rgb(53, 43, 43);
-    }
     /* Rodape */
     
     #rodape {
