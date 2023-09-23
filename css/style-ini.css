@@ -11,7 +11,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
         height: 100%;
-        background-image: linear-gradient(to bottom, transparent 30%, #f4a583 80%), url("../img/back.jpg");
+        background-image: linear-gradient(to bottom, transparent 30%, #f4a583 80%), url("img/back.jpg");
         background-repeat: repeat;
         background-size: cover;
         background-attachment: fixed;
